@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Colors</title>
+        <meta charset="UTF-8" >
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="left">
+            <h2>Red</h2>
+            <div class="flex">
+                <label>0</label>
+                <input oninput="changeColor()" type="range" id="inpRed" min="0" max="255">
+                <label>255</label>
+            </div>
+       
+
+       
+            <h2>Green</h2>
+            <div class="flex">
+                <label>0</label>
+                <input oninput="changeColor()" type="range" id="inpGreen" min="0" max="255">
+                <label>255</label>
+            </div>
+          
+
+      
+            <h2>Blue</h2>
+            <div class="flex">
+                <label>0</label>
+                <input oninput="changeColor()" type="range" id="inpBlue" min="0" max="255">
+                <label>255</label>
+            </div>
+        </div>
+
+
+
+
+        <div id="right">
+            <button class="css-button-3d--grey" onclick="random()">Random color</button>
+            <h3 id="rgb"></h3>
+        </div>
+
+
+        <script type="text/javascript" src="main.js" ></script>
+    </body>
+</html>
